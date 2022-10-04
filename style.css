@@ -1,0 +1,43 @@
+body{
+    overflow-x: hidden;
+}
+.bg-pink{
+    background: rgb(255,182,193);
+    color: #E75480;
+}
+.bg-pink-2{
+    background: rgb(252, 70, 97);
+}
+
+.navbar-nav .nav-item{
+    transition: 1s;
+}
+.navbar-nav .nav-item:hover{
+    background: #E75480;
+    color: rgb(255,182,193);
+}
+#topNavbar{
+    text-align: center;
+    line-height: 10px;
+}
+#logo{
+    margin-bottom: 20px;
+}
+#topNavbarTextUpper{
+    font-size: xx-large;
+    color: rgb(209, 153, 10);
+}
+#topNavbarTextBottom{
+    font-size: small;
+    color: rgb(209, 153, 10);
+}
+#topNavbar h1{
+ font-size: 50px;
+ font: bolder;
+ color: rgb(209, 153, 10);
+}
+@media screen and (max-width: 1220px) {
+    #topNavbarTextUpper{
+        font-size: x-large;
+    }
+}
